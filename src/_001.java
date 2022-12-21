@@ -1,5 +1,9 @@
 public class _001 {
-    static String driverPath = "_drivers/browser-drivers/windows/chromedriver.exe";
+    //For windows
+    //static String driverPath = "_drivers/browser-drivers/windows/chromedriver.exe";
+    //For Mac
+    static String driverPath = "_drivers/browser-drivers/mac64m1/chromedriver";
+
 
     static void sleep (long milliSeconds){
         try {
